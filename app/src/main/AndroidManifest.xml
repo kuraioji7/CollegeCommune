@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.collegecommune">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoTitle">
+        <activity android:name=".Authentication.LoginPage" />
+        <activity android:name=".Authentication.RegisterPage" />
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainScreenTabs.Dept_Select"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainScreenTabs.E_books_list"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainScreenTabs.ExamPapers" />
+        <activity android:name=".MainScreenTabs.EventsPage" />
+        <activity android:name=".MainScreenTabs.TimeTablePage" />
+        <activity android:name=".MainScreenTabs.CompSuggPage"></activity>
+    </application>
+
+</manifest>

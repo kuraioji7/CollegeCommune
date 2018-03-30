@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CollegeCommune</string>
+
+    <string-array name="faculty_array">
+        <item>All</item>
+        <item>BM</item>
+        <item>CE</item>
+        <item>EC</item>
+        <item>IC</item>
+        <item>IT</item>
+    </string-array>
+</resources>
